@@ -1,0 +1,63 @@
+.hero {
+   height: 100vh;
+   background-image: url(../Assets/baner_2x.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.hero-left {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 10px;
+   line-height: 1.2;
+   position: absolute;
+   bottom: -8vh;
+   left: 3vw;
+   border-radius: 0.75rem;
+   background-color: #2e3429;
+   padding: 1rem;
+}
+
+.hero-left p {
+   color: #fff;
+   font-size: 2vw;
+}
+
+.hero-latest-btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto 2vh auto;
+   background-color: #505a47;
+   color: #fffcf1;
+   font-size: 1.1vw;
+   width: 50%;
+   height: 55px;
+   border-radius: 1.75rem;
+}
+
+.hero-latest-btn img {
+   width: 3vh;
+   height: 1.5vh;
+   margin: auto 0;
+}
+
+.hero-latest-btn :hover {
+   transform: scale(1.05);
+   transition: all 1s ease-out;
+}
+
+@media (max-width: 768px) {
+   .hero-left {
+      bottom: 10px;
+      left: 10px;
+      font-size: 5vw;
+   }
+
+   .hero-latest-btn {
+      width: 80%;
+   }
+}

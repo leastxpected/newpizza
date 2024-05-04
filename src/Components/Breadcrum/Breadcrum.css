@@ -1,0 +1,17 @@
+.breadcrum {
+   display: flex;
+   align-items: center;
+   gap: 1vw;
+   color: #2e3429;
+   font-size: 1.2vw;
+   margin: 4vh 5%;
+   text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+   .breadcrum {
+      font-size: 4vw;
+      margin: 4vh 10px;
+      gap: 5px;
+   }
+}
